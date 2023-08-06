@@ -1,0 +1,92 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.container {
+  width: 95%;
+  margin: auto;
+}
+header {
+  /* border: 1px solid red; */
+  background: url("assets/bg-hero-mobile.svg");
+  background-color: hsl(193, 100%, 96%);
+  background-repeat: no-repeat;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4ream;
+}
+nav img {
+  width: 30%;
+}
+nav button {
+  background-color: #feffff;
+  border-radius: 1rem;
+  width: 32%;
+  border: white;
+  box-shadow: -1 2px 10px 1px grey;
+}
+.hero-section {
+  /* border: 2px solid black; */
+  text-align: center;
+  margin-top: 3rem;
+}
+.hero-content h2 {
+  width: 75%;
+  margin: auto;
+  line-height: 2rem;
+}
+.hero-content p {
+  width: 70%;
+  margin: auto;
+  line-height: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.hero-content button {
+  margin: 2rem 0 3rem 0;
+  height: 2.5rem;
+  border-radius: 5rem;
+  width: 60%;
+  border: none;
+  color: #feffff;
+  background-color: hsl(322, 100%, 66%);
+}
+
+.hero-section img {
+  width: 75%;
+}
+/* Main,card section */
+
+.main{
+    margin-top: 2.5rem;
+}
+
+.cards{
+    padding: 3rem;
+    text-align: center;
+    box-shadow: -1px 1px 5px rgb(226,225,225) ;
+    border-radius: 10px;
+
+
+}
+
+.cards img{
+    width: 100%;
+}
+
+.cards h2{
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.cards p{
+    color: hsl(208, 11%, 55%);
+    /* text-align: center; */
+    /* width: 70%; */
+    line-height: 1.5rem;
+    /* margin: auto; */
+}
