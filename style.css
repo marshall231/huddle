@@ -61,32 +61,108 @@ nav button {
 }
 /* Main,card section */
 
-.main{
-    margin-top: 2.5rem;
+.main {
+  margin-top: 2.5rem;
 }
 
-.cards{
-    padding: 3rem;
-    text-align: center;
-    box-shadow: -1px 1px 5px rgb(226,225,225) ;
-    border-radius: 10px;
-
-
+.cards {
+  padding: 3rem;
+  text-align: center;
+  box-shadow: -1px 1px 5px rgb(226, 225, 225);
+  border-radius: 10px;
 }
 
-.cards img{
-    width: 100%;
+.cards img {
+  width: 100%;
 }
 
-.cards h2{
-    padding: 1rem 0;
-    text-align: center;
+.cards h2 {
+  padding: 1rem 0;
+  text-align: center;
 }
 
-.cards p{
-    color: hsl(208, 11%, 55%);
-    /* text-align: center; */
-    /* width: 70%; */
-    line-height: 1.5rem;
-    /* margin: auto; */
+.cards p {
+  color: hsl(208, 11%, 55%);
+  /* text-align: center; */
+  /* width: 70%; */
+  line-height: 1.5rem;
+  /* margin: auto; */
 }
+.main-2 {
+  margin-top: 1rem;
+}
+.main-3 {
+  margin-top: 1rem;
+}
+.bottom button {
+  background-color: hsl(322, 100%, 66%);
+  width: 70%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 4%;
+  border-radius: 4rem;
+  margin-left: 2rem;
+  color: white;
+}
+.bottom {
+  box-shadow: -1px 1px 5px rgb(215, 214, 214);
+  margin: auto;
+  border-radius: 10px;
+  width: 90%;
+  background-color: white;
+  margin-top: 3rem;
+  position: relative;
+  top: 43px;
+}
+.bottom h2 {
+  padding: 15px;
+  text-align: start;
+  font-family: "poppins" sans-serif;
+  font-size: 20px;
+}
+footer {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  padding: 12px;
+}
+footer div img {
+  width: 35%;
+  background-color: hsl(193, 100%, 96%);
+  margin-top: 8rem;
+  border: none;
+}
+footer ul {
+  list-style: none;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+footer ul li {
+  padding: 6px;
+}
+footer p {
+  margin-top: 2rem;
+  line-height: 1.5rem;
+  text-align: start;
+  width: 90%;
+  margin-bottom: 1rem;
+  padding: 5px;
+  font-size: 12px;
+}
+.fa-solid {
+  padding: 4px;
+  margin-right: 1rem;
+  display: flex;
+}
+.footer p {
+  display: flex;
+  justify-content: space-between;
+}
+.div-awesome {
+    align-items: center;
+}
+.footer-copyright{
+    margin-left: 3rem;
+} 
+
+
+
