@@ -101,8 +101,9 @@ nav button {
   margin-bottom: 2rem;
   padding: 4%;
   border-radius: 4rem;
-  margin-left: 2rem;
+  margin-left: 3rem;
   color: white;
+  border: none;
 }
 .bottom {
   box-shadow: -1px 1px 5px rgb(215, 214, 214);
@@ -158,10 +159,10 @@ footer p {
   justify-content: space-between;
 }
 .div-awesome {
-    align-items: center;
+    
 }
 .footer-copyright{
-    margin-left: 3rem;
+margin-left: 50rem;
 } 
 
 
